@@ -1,0 +1,122 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1,
+p {
+  color: #e1e1e6;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  padding: 4rem 7.2rem;
+  position: fixed;
+  gap: 3.2rem;
+}
+
+nav .menu ul {
+  display: flex;
+  gap: 3.2rem;
+}
+
+nav .menu ul li a {
+  white-space: nowrap;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+nav .menu ul li a:hover {
+  font-weight: 700;
+}
+
+#container-imagem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+}
+
+#app {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.home h1,
+.universe h1,
+.exploration h1 {
+  white-space: nowrap;
+  font-size: clamp(2.5rem, 2.5rem + 3vw, 4.8rem);
+}
+
+.home button {
+  width: 19.5rem;
+  height: 4.8rem;
+  white-space: nowrap;
+  background: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: white;
+  transition: 200ms;
+}
+
+.home button:hover {
+  background: #fff;
+  color: #02799d;
+}
+
+.universe p,
+.exploration p {
+  max-width: 64.8rem;
+  font-size: clamp(1.4rem, 1.1rem + 1vw, 1.8rem);
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.universe h1,
+.exploration h1 {
+  margin-bottom: 1.6rem;
+}
+
+.universe,
+.exploration {
+  padding-inline: clamp(3rem, 8.5vw, 10.2rem);
+  padding-top: 18.5rem;
+}

@@ -5,7 +5,7 @@ O Explorer é um programa de 6 meses que vai te ensinar a se posicionar como um 
 
 [Rocket.Sect](https://gabriel-williams.github.io/Rocket.sect/)
 
-[Space Cream](https://gabriel-williams.github.io/stage3-desafioMobileFirst/)
+[Space Cream](https://gabriel-williams.github.io/stage3-challengeMobileFirst/)
 
 [SPA Universe ](https://explorer-spa-universe.vercel.app/)
 

@@ -37,3 +37,5 @@ Competências: HTML5 · CSS3 · React.js · Node.js · API REST · Desenvolvimen
 [DoctorCare - (NLW)](https://doctorcare-five.vercel.app/)
 
 [Git Fav](https://git-fav-gabriel-williams.vercel.app/)
+
+[Rocket Movies](https://rocket-movies-eight.vercel.app/)
